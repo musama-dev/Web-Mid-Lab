@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventify Discover Events Across Pakistan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-eventify py-3 sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Eventify</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <a href="booking.html" class="btn btn-coral px-4">Book Tickets</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="py-5 my-lg-3">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <h1 class="display-4 fw-bold mb-3">Discover Events. Create Memories.</h1>
+            <p class="lead text-warm-muted mb-4">
+              Explore curated concerts, technology summits, street food carnivals, and stadium sports events happening across Pakistan. Simple discovery and effortless seat reservation in one place.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="events.html" class="btn btn-coral btn-lg px-4">Explore Events</a>
+              <a href="booking.html" class="btn btn-outline-navy btn-lg px-4">Reserve a Seat</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image-frame">
+              <img src="images/Sunset Kites Over Lahore.png" alt="Basant festival celebration with sunset kites over Lahore">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4 gap-3">
+          <div>
+            <h2 class="fw-bold mb-0">Featured Upcoming Events</h2>
+          </div>
+          <a href="events.html" class="btn btn-outline-navy btn-sm px-3">View All Events <i class="bi bi-arrow-right ms-1"></i></a>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card event-card h-100">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Mashhad_Sharyar_of_Mizmaar.JPG" referrerpolicy="no-referrer" class="event-card-img" alt="Karachi Coastal Music Festival live performance">
+              <div class="card-body d-flex flex-column p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="badge badge-category">Music</span>
+                  <span class="event-price">PKR 2,500</span>
+                </div>
+                <h5 class="card-title fw-bold mb-2">Karachi Coastal Music Festival</h5>
+                <p class="small text-warm-muted mb-1"><i class="bi bi-calendar-event me-2"></i>Sat, Dec 12, 2026 &bull; 6:30 PM</p>
+                <p class="small text-warm-muted mb-4"><i class="bi bi-geo-alt me-2"></i>Clifton Beach Park, Karachi</p>
+                <a href="event-details.html" class="btn btn-outline-navy mt-auto">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card event-card h-100">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Expo_Center_Lahore.JPG" referrerpolicy="no-referrer" class="event-card-img" alt="Expo Centre Lahore venue for Tech & AI Summit">
+              <div class="card-body d-flex flex-column p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="badge badge-category">Technology</span>
+                  <span class="event-price">PKR 1,800</span>
+                </div>
+                <h5 class="card-title fw-bold mb-2">Lahore Tech &amp; AI Summit 2026</h5>
+                <p class="small text-warm-muted mb-1"><i class="bi bi-calendar-event me-2"></i>Sat, Nov 28, 2026 &bull; 10:00 AM</p>
+                <p class="small text-warm-muted mb-4"><i class="bi bi-geo-alt me-2"></i>Expo Centre, Johar Town, Lahore</p>
+                <a href="event-details.html" class="btn btn-outline-navy mt-auto">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card event-card h-100">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Food_street_lahore_by_kamran.jpg" referrerpolicy="no-referrer" class="event-card-img" alt="Lahore Food Street Carnival at night">
+              <div class="card-body d-flex flex-column p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="badge badge-category">Food</span>
+                  <span class="event-price">PKR 1,000</span>
+                </div>
+                <h5 class="card-title fw-bold mb-2">Lahore Food Street Carnival</h5>
+                <p class="small text-warm-muted mb-1"><i class="bi bi-calendar-event me-2"></i>Sun, Dec 6, 2026 &bull; 5:00 PM</p>
+                <p class="small text-warm-muted mb-4"><i class="bi bi-geo-alt me-2"></i>Fort Road Food Street, Lahore</p>
+                <a href="event-details.html" class="btn btn-outline-navy mt-auto">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sand py-5">
+      <div class="container">
+        <div class="mb-4">
+          <h2 class="fw-bold mb-0">Event Categories</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
+          <div class="col">
+            <a href="events.html" class="category-tile h-100">
+              <i class="bi bi-music-note-beamed category-icon mb-3 d-block"></i>
+              <h5 class="fw-bold mb-1">Music</h5>
+              <p class="small text-warm-muted mb-0">Live concerts, sufi nights, and coastal acoustic sessions.</p>
+            </a>
+          </div>
+          <div class="col">
+            <a href="events.html" class="category-tile h-100">
+              <i class="bi bi-cpu category-icon mb-3 d-block"></i>
+              <h5 class="fw-bold mb-1">Technology</h5>
+              <p class="small text-warm-muted mb-0">Developer summits, product workshops, and startup forums.</p>
+            </a>
+          </div>
+          <div class="col">
+            <a href="events.html" class="category-tile h-100">
+              <i class="bi bi-cup-hot category-icon mb-3 d-block"></i>
+              <h5 class="fw-bold mb-1">Food</h5>
+              <p class="small text-warm-muted mb-0">Traditional street food carnivals and weekend culinary markets.</p>
+            </a>
+          </div>
+          <div class="col">
+            <a href="events.html" class="category-tile h-100">
+              <i class="bi bi-trophy category-icon mb-3 d-block"></i>
+              <h5 class="fw-bold mb-1">Sports</h5>
+              <p class="small text-warm-muted mb-0">Stadium matches, city marathons, and community tournaments.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-5 my-lg-2">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <h2 class="fw-bold mb-3">Your weekend plans, organized in minutes.</h2>
+            <p class="text-warm-muted mb-4">
+              Eventify brings together authentic cultural festivals, student tech conferences, and local gatherings across Karachi, Lahore, and Islamabad. Browse verified schedules, view transparent PKR pricing, and submit your booking request without endless sign-up walls.
+            </p>
+            <div class="row g-3 border-top pt-4">
+              <div class="col-sm-4">
+                <h3 class="fw-bold mb-0">3 Cities</h3>
+                <p class="small text-warm-muted mb-0">Karachi, Lahore &amp; Islamabad</p>
+              </div>
+              <div class="col-sm-4">
+                <h3 class="fw-bold mb-0">PKR Pricing</h3>
+                <p class="small text-warm-muted mb-0">Clear per-ticket cost breakdown</p>
+              </div>
+              <div class="col-sm-4">
+                <h3 class="fw-bold mb-0">1–5 Seats</h3>
+                <p class="small text-warm-muted mb-0">Quick group booking requests</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="p-4 p-md-5 section-sand rounded-3">
+              <h4 class="fw-bold mb-2">Ready to attend an upcoming event?</h4>
+              <p class="text-warm-muted mb-4">
+                Pick an event, choose up to 5 tickets, and submit your booking request in under a minute.
+              </p>
+              <a href="booking.html" class="btn btn-coral w-100 py-2">Go to Booking Form</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sand py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="mb-4">
+              <h2 class="fw-bold mb-0">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="accordion" id="faqAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
+                    How do I book tickets on Eventify?
+                  </button>
+                </h2>
+                <div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-warm-muted">
+                    Browse upcoming events on the Events page, review full details, and click "Book Tickets" to open the booking form. Choose your event and ticket quantity (between 1 and 5), fill in your contact information, and submit the form.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+                    Is online payment required right now?
+                  </button>
+                </h2>
+                <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-warm-muted">
+                    No. Eventify is a frontend demonstration project, so submitting the booking form registers a booking request preview without charging any card or processing real payments.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                    How many tickets can I request in one booking?
+                  </button>
+                </h2>
+                <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-warm-muted">
+                    You can request between 1 and 5 tickets per submission so seats remain fairly accessible for everyone.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">
+                    Which cities are currently covered?
+                  </button>
+                </h2>
+                <div id="faqFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-warm-muted">
+                    Our current event lineup features curated experiences in Karachi, Lahore, and Islamabad.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-eventify pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4 pb-4">
+        <div class="col-lg-4">
+          <h4 class="text-white fw-bold mb-2">Eventify</h4>
+          <p class="small text-light opacity-75 mb-0">
+            A clean, responsive event discovery and booking platform highlighting concerts, tech conferences, food festivals, and sports events across Pakistan.
+          </p>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-2">
+          <h6 class="text-white fw-semibold mb-3">Navigation</h6>
+          <ul class="list-unstyled small d-grid gap-2">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="event-details.html">Event Details</a></li>
+            <li><a href="booking.html">Book Tickets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="text-white fw-semibold mb-3">Cities</h6>
+          <ul class="list-unstyled small d-grid gap-2">
+            <li><a href="events.html">Karachi</a></li>
+            <li><a href="events.html">Lahore</a></li>
+            <li><a href="events.html">Islamabad</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h6 class="text-white fw-semibold mb-3">Follow Us</h6>
+          <div class="d-flex gap-3 fs-5">
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Twitter X"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="footer-divider">
+      <div class="text-center small text-light opacity-75 pt-2">
+        <p class="mb-0">&copy; 2026 Eventify. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
